@@ -1,0 +1,25 @@
+{
+  "name": "react-bablic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "@types/vinyl-fs": "^2.4.11",
+    "@types/yargs": "^13.0.3",
+    "bablic-i18n": "^1.0.0",
+    "fs-extra": "^8.1.0",
+    "gulp-sort": "^2.0.0",
+    "i18next-parser": "^1.0.0",
+    "typescript": "^3.7.2",
+    "vinyl-fs": "^3.0.3",
+    "yargs": "^15.0.2"
+  }
+}
